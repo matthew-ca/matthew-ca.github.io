@@ -31,7 +31,7 @@ github_username:  matthew-ca
 linkedin_username: matthewaneumann
 
 # Build settings
-theme: jekyll-theme-minima
+theme: minima
 plugins:
   - jekyll-feed # Generates Atom feed
 # Exclude from processing.
