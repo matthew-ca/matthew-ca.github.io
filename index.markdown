@@ -1,6 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
 ---
+<h1>Welcome to My Portfolio</h1>
+<div class="portfolio">
+  {% for project in site.data.projects %}
+    <div class="project">
+      <h2>{{ project.title }}</h2>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.link }}">View Project</a>
+    </div>
+  {% endfor %}
+</div>

@@ -31,7 +31,7 @@ github_username:  matthew-ca
 linkedin_username: matthewaneumann
 
 # Build settings
-theme: slate
+theme: minima
 # This is the default theme for Jekyll. You can change it to any other theme you like.
 plugins:
   - jekyll-feed # Generates Atom feed

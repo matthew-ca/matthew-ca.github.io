@@ -1,0 +1,8 @@
+# filepath: c:\Users\Man\Desktop\Jekyll\matthew-ca.github.io\_data\projects.yml
+- title: Project 1
+  description: A brief description of Project 1.
+  link: /projects/project-1
+
+- title: Project 2
+  description: A brief description of Project 2.
+  link: /projects/project-2
