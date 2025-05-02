@@ -1,7 +1,7 @@
 <!-- filepath: c:\Users\Man\Desktop\Jekyll\matthew-ca.github.io\_projects\project-1.md -->
 ---
 layout: portfolio
-title: Project 1
-description: A detailed description of Project 1.
+title: www.MatthewN.ca
+description: A personal website for myself.
 ---
-Here is the content for Project 1.
+MatthewN.ca is a static web page hosted on Github pages to show case my ideas and work
