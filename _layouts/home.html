@@ -1,0 +1,38 @@
+<!-- filepath: c:\Users\Man\Desktop\Jekyll\matthew-ca.github.io\_layouts\home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.subtitle }}</p>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="portfolio">
+            {% for project in site.data.projects %}
+            <div class="project-card">
+                <h2>{{ project.title }}</h2>
+                <p>{{ project.description }}</p>
+                <a href="{{ project.link }}">View Project</a>
+            </div>
+            {% endfor %}
+        </section>
+    </main>
+    <footer>
+        <p>&copy; {{ site.author }} - {{ site.title }}</p>
+    </footer>
+</body>
+</html>
