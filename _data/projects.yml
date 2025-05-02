@@ -1,6 +1,6 @@
 # filepath: c:\Users\Man\Desktop\Jekyll\matthew-ca.github.io\_data\projects.yml
-- title: Project 1
-  description: A brief description of Project 1.
+- title: MatthewN.ca
+  description: A personal website showcasing my projects and skills.
   link: /projects/project-1
 
 - title: Project 2
