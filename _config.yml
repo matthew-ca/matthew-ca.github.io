@@ -29,7 +29,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  matthew-ca
 linkedin_username: matthewaneumann
-
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
 # Build settings
 theme: minima
 # This is the default theme for Jekyll. You can change it to any other theme you like.
