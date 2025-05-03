@@ -3,21 +3,23 @@ layout: home
 ---
 
 <!-- Wrapper for the portfolio section, displaying a list of projects -->
+<!-- Wrapper for the portfolio section, displaying a list of projects -->
 <div class="portfolio" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   {% if site.data.projects %}
     {% for project in site.data.projects %}
       <div class="project-card" style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 300px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h2 style="font-size: 1.5em; margin-bottom: 10px;">{{ project.title }}</h2>
         <p style="color: #555; margin-bottom: 15px;">{{ project.description }}</p>
-        <a href="{{ project.link }}" style="text-decoration: none; color: #007acc; font-weight: bold;">View Project →</a>
+        <!-- Centered View Project Link -->
+        <div style="text-align: center; margin-top: 15px;">
+          <a href="{{ project.link }}" style="text-decoration: none; color: #007acc; font-weight: bold;">View Project →</a>
+        </div>
       </div>
     {% endfor %}
   {% else %}
     <p>No projects available at the moment.</p>
   {% endif %}
-
 </div>
-
 <div class="timeline" style="position: relative; margin: 50px auto; padding: 20px; max-width: 800px;">
   <!-- Vertical line -->
   <div style="position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background-color: #ddd;"></div>
