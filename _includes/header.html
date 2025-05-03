@@ -2,16 +2,23 @@
   <div class="wrapper">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     <nav class="site-nav">
-      {% if site.pages %}
-        <ul class="nav-list" style="list-style: none; padding: 0; margin: 0;">
-          <li style="display: inline; margin-right: 15px;">
-            <a href="{{ '/' | relative_url }}">Home</a>
-          </li>
-          <li style="display: inline;">
-            <a href="{{ '/about/' | relative_url }}">About</a>
-          </li>
-        </ul>
-      {% endif %}
+      <ul class="nav-list" style="list-style: none; padding: 0; margin: 0;">
+        <li style="display: inline; margin-right: 15px;">
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li style="display: inline; margin-right: 15px;">
+          <a href="{{ '/about/' | relative_url }}">About</a>
+        </li>
+        <li style="display: inline; margin-right: 15px;">
+          <a href="{{ '/projects/projects' | relative_url }}">Projects</a>
+        </li>
+        <li style="display: inline; margin-right: 15px;">
+          <a href="{{ '/work-timeline/work-timeline' | relative_url }}">Work Experience</a>
+        </li>
+        <li style="display: inline;">
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>

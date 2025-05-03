@@ -54,7 +54,29 @@ layout: home
     ... and more
   </p>
 </div>
+<!-- Popup Warning -->
+<div id="popup-warning" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); display: flex; justify-content: center; align-items: center; z-index: 1000;">
+  <div style="background: white; padding: 20px; border-radius: 8px; max-width: 400px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+    <h2 style="margin-bottom: 15px;">Notice</h2>
+    <p style="margin-bottom: 20px; color: #555;">
+      This website is under construction. Information may be inaccurate or satirical. No liability is assumed for defects or bugs.
+    </p>
+    <button id="agree-button" style="padding: 10px 20px; background-color: #007acc; color: white; border: none; border-radius: 4px; cursor: pointer;">
+      I Understand
+    </button>
+  </div>
+</div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("popup-warning");
+    const agreeButton = document.getElementById("agree-button");
+
+    agreeButton.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+  });
+</script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".toggle-details");

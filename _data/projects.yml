@@ -1,8 +1,8 @@
-- title: MatthewN.ca Personal Portfolio
+- title: Personal Portfolio
   description: A static website built with Jekyll and hosted on GitHub Pages.
   link: /projects/project-1.md
 
-- title: TBD Project 2
+- title: Full Stack Web Application
   description: This is a work in progress.
   link: /projects/project-2/
 
