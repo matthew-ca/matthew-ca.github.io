@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Matthew Neumanns Portfolio
+title: Matthew Neumann
 subtitle: >- # this means to ignore newlines until "description:"
   Matthew Neumanns Portfolio. This is a portfolio site for Matthew Neumann.
 author: Matthew Neumann
