@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Home
+title: Welcome to MatthewN.ca
 ---
-<h1>test to My Portfolio</h1>
+<h1>A central repository for all things me</h1>
 <div class="portfolio">
   {% for project in site.data.projects %}
     <div class="project">
