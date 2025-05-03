@@ -2,7 +2,7 @@
 layout: home
 title: Home
 ---
-<h1>Welcome to My Portfolio</h1>
+<h1>test to My Portfolio</h1>
 <div class="portfolio">
   {% for project in site.data.projects %}
     <div class="project">
