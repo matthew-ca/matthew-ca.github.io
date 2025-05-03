@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to MatthewN.ca
+title: Home
 ---
 <h1>A central repository for all things me</h1>
 <div class="portfolio">
