@@ -1,0 +1,11 @@
+- title: MatthewN.ca Personal Portfolio
+  description: A static website built with Jekyll and hosted on GitHub Pages.
+  link: /projects/project-1.md
+
+- title: TBD Project 2
+  description: This is a work in progress.
+  link: /projects/project-2/
+
+- title: TBD Project 3
+  description: This is a work in progress.
+  link: /projects/project-3/
